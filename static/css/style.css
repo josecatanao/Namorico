@@ -53,9 +53,7 @@
     display: flex;
     align-items: center;
 }
-#texto{
-    
-}
+
 #texto>h2{
     width: 570px;
     margin-bottom: 18px;
@@ -85,6 +83,41 @@
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
+}
+/*#####################################################################################*/
+#blocoSecundario{
+    width: 100%;
+    height: 556px;
+    display: flex;
+    justify-content: center;
+}
+#blocoSobre{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+#TextoSobre{
+    width: 450px;
+}
+#TextoSobre>h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #FF6261;
+}
+#TextoSobre>p{
+    color: #757474;
+    font-size: 17px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+#blocoIlustra{
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 

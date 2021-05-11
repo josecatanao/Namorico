@@ -5,7 +5,6 @@
         margin-top: 60px;
         display: flex;
         flex-wrap: wrap;
-        
         flex-direction: column-reverse;
         justify-content:center;
     }
@@ -32,6 +31,41 @@
     #fotoIntro>img{
         width: 300px;
     }
+    /******************************/
+    #blocoSecundario{
+        width: 100%;
+        height: 556px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    #blocoSobre{
+        width: 100%;
+    }
+    #TextoSobre{
+        width:100%;
+        text-align: center;
+    }
+    #TextoSobre>h2{
+        font-size: 30px;
+    }
+    #TextoSobre>p{
+      width: 70%;
+      font-size: 16px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #blocoIlustra{
+        width: 100%;
+        justify-content: center;
+    }
+    #blocoIlustra>img{
+        width: 300px;
+    }
+
+    
+
+
 }
 
 @media (max-width: 603px) and (min-width: 200px) {
@@ -90,4 +124,36 @@
     #fotoIntro>img{
         width: 280px;
     }
+    /********************************************************************************/
+    #blocoSecundario{
+        width: 100%;
+        height: 556px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    #blocoSobre{
+        width: 100%;
+    }
+    #TextoSobre{
+        width:100%;
+        text-align: center;
+    }
+    #TextoSobre>h2{
+        font-size: 30px;
+    }
+    #TextoSobre>p{
+      width: 95%;
+      font-size: 16px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #blocoIlustra{
+        width: 100%;
+        justify-content: center;
+    }
+    #blocoIlustra>img{
+        width: 300px;
+    }
+
 }
