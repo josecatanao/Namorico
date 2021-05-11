@@ -157,3 +157,47 @@
     }
 
 }
+
+/*************************************************************/
+
+@media all and (max-width: 1000px) and (min-width: 0px) {
+    #div_principal{
+      width: 85%;
+      margin: 0 auto;
+    }
+    #div_principal>h2{
+      font-size: 19px;
+      text-align: center;
+      margin: 15px auto;
+    }
+  
+    .div_principal_opcao{
+      width: 100%;
+      display: grid;
+      grid-template-columns: 6fr 6fr ;
+      grid-template-rows: 6fr  6fr;
+      grid-template-areas: "dir  esq"
+                             "opc opc" ;
+      
+    }
+    .div_opc{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      grid-area: opc;
+      margin: 5px 0px;
+    }
+    .opc{
+      width: 30px;
+      height: 30px;
+      border-radius: 20px;
+      display: block;
+      margin: 0px 10px;
+      border: 1px solid grey;
+    }
+    .esq > p , .dir >p{
+      font-weight: bolder;
+      font-size: 10px;
+    }
+    
+  }
